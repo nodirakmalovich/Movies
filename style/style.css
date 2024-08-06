@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar{
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(34, 33, 33);
+}
+
+.col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movieInfo {
+    color: white;
+}
+
+.ratingMovie {
+    color: white;
+}
+
+.searchMovie {
+    width: 82% !important;
+    height: 32px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    outline: none !important;
+}
+
+.searchBtn {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    height: 32px !important;
+}
+
+.navbar {
+
+    z-index: 3;
+    background-color: black;
+}
+
+
+.languageOfMovie {
+    height: 32px;
+    width: 70px;
+    padding: 3px;
+}
+
+.mainCard {
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+
+.topCard{
+    width: 100%;
+    height: 400px;
+}
+
+.watchList {
+    height: 32px !important;
+    padding: 3px 6px !important;
+}
+
+.watchListBtn {
+    width: 154.39px !important;
+    position: absolute;
+    top: 423px;
+}
+
+.cardBody{
+    position: relative;
+}
+
+.globalWatch {
+    width: 154.39px !important;
+    position: absolute;
+    right: 20px;
+    top: 98px;
+}
+
+.comingContainer {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.upcomingTitle {
+    color: orange;
+    margin-top: 80px;
+}
+
+.upcomingCard {
+    width: 250px;
+}
+
+.dropdown-toggle {
+    height: 32px !important;
+    padding: 3px 6px !important;
+}
+
+
+.globalSearch{
+    margin-top: 100px;
+}
+
+.globalTitlt {
+    margin-top: 100px;
+}
+
+.globalCard{
+    height: 200px;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cardImage{
+    width: 100%;
+    object-fit: cover;
+}
+
+.top-content{
+    flex-wrap: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+}
+
